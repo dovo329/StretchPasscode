@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5D69AB61B137851007A7267 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D69AB51B137851007A7267 /* main.m */; };
+		A5D69AB91B137851007A7267 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D69AB81B137851007A7267 /* AppDelegate.m */; };
+		A5D69ABC1B137851007A7267 /* StretchPasscode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5D69ABA1B137851007A7267 /* StretchPasscode.xcdatamodeld */; };
+		A5D69ABF1B137851007A7267 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D69ABE1B137851007A7267 /* ViewController.m */; };
+		A5D69AC21B137851007A7267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D69AC01B137851007A7267 /* Main.storyboard */; };
+		A5D69AC41B137851007A7267 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D69AC31B137851007A7267 /* Images.xcassets */; };
+		A5D69AC71B137851007A7267 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D69AC51B137851007A7267 /* LaunchScreen.xib */; };
+		A5D69AD31B137851007A7267 /* StretchPasscodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D69AD21B137851007A7267 /* StretchPasscodeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5D69ACD1B137851007A7267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5D69AA81B137851007A7267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5D69AAF1B137851007A7267;
+			remoteInfo = StretchPasscode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5D69AB01B137851007A7267 /* StretchPasscode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StretchPasscode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D69AB41B137851007A7267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D69AB51B137851007A7267 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5D69AB71B137851007A7267 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5D69AB81B137851007A7267 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5D69ABB1B137851007A7267 /* StretchPasscode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StretchPasscode.xcdatamodel; sourceTree = "<group>"; };
+		A5D69ABD1B137851007A7267 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5D69ABE1B137851007A7267 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5D69AC11B137851007A7267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5D69AC31B137851007A7267 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5D69AC61B137851007A7267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A5D69ACC1B137851007A7267 /* StretchPasscodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StretchPasscodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D69AD11B137851007A7267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D69AD21B137851007A7267 /* StretchPasscodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StretchPasscodeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5D69AAD1B137851007A7267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D69AC91B137851007A7267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5D69AA71B137851007A7267 = {
+			isa = PBXGroup;
+			children = (
+				A5D69AB21B137851007A7267 /* StretchPasscode */,
+				A5D69ACF1B137851007A7267 /* StretchPasscodeTests */,
+				A5D69AB11B137851007A7267 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5D69AB11B137851007A7267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D69AB01B137851007A7267 /* StretchPasscode.app */,
+				A5D69ACC1B137851007A7267 /* StretchPasscodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5D69AB21B137851007A7267 /* StretchPasscode */ = {
+			isa = PBXGroup;
+			children = (
+				A5D69AB71B137851007A7267 /* AppDelegate.h */,
+				A5D69AB81B137851007A7267 /* AppDelegate.m */,
+				A5D69ABD1B137851007A7267 /* ViewController.h */,
+				A5D69ABE1B137851007A7267 /* ViewController.m */,
+				A5D69AC01B137851007A7267 /* Main.storyboard */,
+				A5D69AC31B137851007A7267 /* Images.xcassets */,
+				A5D69AC51B137851007A7267 /* LaunchScreen.xib */,
+				A5D69ABA1B137851007A7267 /* StretchPasscode.xcdatamodeld */,
+				A5D69AB31B137851007A7267 /* Supporting Files */,
+			);
+			path = StretchPasscode;
+			sourceTree = "<group>";
+		};
+		A5D69AB31B137851007A7267 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5D69AB41B137851007A7267 /* Info.plist */,
+				A5D69AB51B137851007A7267 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5D69ACF1B137851007A7267 /* StretchPasscodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5D69AD21B137851007A7267 /* StretchPasscodeTests.m */,
+				A5D69AD01B137851007A7267 /* Supporting Files */,
+			);
+			path = StretchPasscodeTests;
+			sourceTree = "<group>";
+		};
+		A5D69AD01B137851007A7267 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5D69AD11B137851007A7267 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5D69AAF1B137851007A7267 /* StretchPasscode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D69AD61B137851007A7267 /* Build configuration list for PBXNativeTarget "StretchPasscode" */;
+			buildPhases = (
+				A5D69AAC1B137851007A7267 /* Sources */,
+				A5D69AAD1B137851007A7267 /* Frameworks */,
+				A5D69AAE1B137851007A7267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StretchPasscode;
+			productName = StretchPasscode;
+			productReference = A5D69AB01B137851007A7267 /* StretchPasscode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5D69ACB1B137851007A7267 /* StretchPasscodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D69AD91B137851007A7267 /* Build configuration list for PBXNativeTarget "StretchPasscodeTests" */;
+			buildPhases = (
+				A5D69AC81B137851007A7267 /* Sources */,
+				A5D69AC91B137851007A7267 /* Frameworks */,
+				A5D69ACA1B137851007A7267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5D69ACE1B137851007A7267 /* PBXTargetDependency */,
+			);
+			name = StretchPasscodeTests;
+			productName = StretchPasscodeTests;
+			productReference = A5D69ACC1B137851007A7267 /* StretchPasscodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5D69AA81B137851007A7267 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = DougsApps;
+				TargetAttributes = {
+					A5D69AAF1B137851007A7267 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A5D69ACB1B137851007A7267 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A5D69AAF1B137851007A7267;
+					};
+				};
+			};
+			buildConfigurationList = A5D69AAB1B137851007A7267 /* Build configuration list for PBXProject "StretchPasscode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5D69AA71B137851007A7267;
+			productRefGroup = A5D69AB11B137851007A7267 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5D69AAF1B137851007A7267 /* StretchPasscode */,
+				A5D69ACB1B137851007A7267 /* StretchPasscodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5D69AAE1B137851007A7267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D69AC21B137851007A7267 /* Main.storyboard in Resources */,
+				A5D69AC71B137851007A7267 /* LaunchScreen.xib in Resources */,
+				A5D69AC41B137851007A7267 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D69ACA1B137851007A7267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5D69AAC1B137851007A7267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D69ABC1B137851007A7267 /* StretchPasscode.xcdatamodeld in Sources */,
+				A5D69AB91B137851007A7267 /* AppDelegate.m in Sources */,
+				A5D69ABF1B137851007A7267 /* ViewController.m in Sources */,
+				A5D69AB61B137851007A7267 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D69AC81B137851007A7267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D69AD31B137851007A7267 /* StretchPasscodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5D69ACE1B137851007A7267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5D69AAF1B137851007A7267 /* StretchPasscode */;
+			targetProxy = A5D69ACD1B137851007A7267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5D69AC01B137851007A7267 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D69AC11B137851007A7267 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5D69AC51B137851007A7267 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D69AC61B137851007A7267 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5D69AD41B137851007A7267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5D69AD51B137851007A7267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5D69AD71B137851007A7267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StretchPasscode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5D69AD81B137851007A7267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StretchPasscode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5D69ADA1B137851007A7267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StretchPasscodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StretchPasscode.app/StretchPasscode";
+			};
+			name = Debug;
+		};
+		A5D69ADB1B137851007A7267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StretchPasscodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StretchPasscode.app/StretchPasscode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5D69AAB1B137851007A7267 /* Build configuration list for PBXProject "StretchPasscode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D69AD41B137851007A7267 /* Debug */,
+				A5D69AD51B137851007A7267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D69AD61B137851007A7267 /* Build configuration list for PBXNativeTarget "StretchPasscode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D69AD71B137851007A7267 /* Debug */,
+				A5D69AD81B137851007A7267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5D69AD91B137851007A7267 /* Build configuration list for PBXNativeTarget "StretchPasscodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D69ADA1B137851007A7267 /* Debug */,
+				A5D69ADB1B137851007A7267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5D69ABA1B137851007A7267 /* StretchPasscode.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5D69ABB1B137851007A7267 /* StretchPasscode.xcdatamodel */,
+			);
+			currentVersion = A5D69ABB1B137851007A7267 /* StretchPasscode.xcdatamodel */;
+			path = StretchPasscode.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5D69AA81B137851007A7267 /* Project object */;
+}
